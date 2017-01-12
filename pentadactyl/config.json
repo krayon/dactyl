@@ -1,7 +1,7 @@
 {
     "name": "pentadactyl",
-    "appName": "Pentadactyl",
-    "idName": "PENTADACTYL",
+    "appName": "Pentadactyl (QDNX)",
+    "idName": "PENTADACTYLQDNX",
     "host": "Firefox",
     "hostbin": "firefox",
 
@@ -54,7 +54,7 @@
         "complete":     "search,location,file",
         "guioptions":   "bCrs",
         "showtabline":  "always",
-        "titlestring":  "Pentadactyl"
+        "titlestring":  "Pentadactyl (QDNX)"
     },
 
     "features": [
