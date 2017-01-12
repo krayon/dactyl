@@ -371,7 +371,7 @@ var IO = Module("io", {
         file.append(config.name + label + "." + ext);
         file.createUnique(Ci.nsIFile.NORMAL_FILE_TYPE, 0o666);
 
-        services.externalApp.deleteTemporaryFileOnExit(file);
+        if (services.externalApp) services.externalApp.deleteTemporaryFileOnExit(file);
 
         return File(file);
     },
